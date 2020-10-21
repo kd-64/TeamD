@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+  }
+
+  #loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgb(255, 255, 255)
+                  url('load.gif') 
+                  no-repeat center;
+
+      z-index: 999999999999;
+  }
+  
+  body{
+    margin:0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:17px;
+    color:#926239;
+    line-height:1.6;
+  }
+  
+
+  #showcase{
+    background-image:url('futurecity.jpg');
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+  }
+  
+  #showcase h1{
+    font-size:50px;
+    line-height:1.2;
+  }
+
+  #showcase p{
+    font-size:20px;
+  }
+
+  #showcase .button{
+    font-size:18px;
+    text-decoration:none;
+    color: whitesmoke;
+    border:#3b3835 1px solid;
+    padding:10px 20px;
+    border-radius:10px;
+    margin-top:20px;
+  }
+
+  #showcase .button:hover{
+    background:#3a2717;
+    color:#fff;
+  }
+
+  #section-a{
+    padding:20px;
+    background:rgb(0, 0, 0);
+    color:rgb(220, 247, 247);
+    text-align:center;
+  }
